@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Space Explorer - Jupiter</title>
+
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #050816;
+            color: white;
+        }
+
+        nav {
+            height: 70px;
+            background: #080d24;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 7%;
+            border-bottom: 1px solid #252b55;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #9b6cff;
+        }
+
+        .logo img {
+            width: 38px;
+            height: 38px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #9b6cff;
+        }
+
+        .planet {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .planet img {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .planet h1 {
+            font-size: 45px;
+            margin: 20px 0;
+            color: #9b6cff;
+        }
+
+        .planet p {
+            max-width: 700px;
+            margin: auto;
+            color: #c2c5d8;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 20px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-btn:hover {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 11px 22px;
+            background: #7c3aed;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #080d24;
+            color: #9da2bd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+            <span>SPACE EXPLORER</span>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="planet.html">Planets</a></li>
+            <li><a href="missions.html">Missions</a></li>
+            <li><a href="astronauts.html">Astronauts</a></li>
+            <li><a href="universe.html">Universe</a></li>
+        </ul>
+
+    </nav>
+
+
+    <section class="planet">
+
+        <img src="images/jupiter.jpg" alt="Jupiter">
+
+        <h1>Jupiter </h1>
+
+        <p>
+            Jupiter is the largest planet in our Solar System.
+            It is a gas giant made mostly of hydrogen and helium.
+            Jupiter is famous for its Great Red Spot, a huge storm
+            in its atmosphere.
+        </p>
+
+        <a href="planet.html" class="back-btn">
+            ← Back to Planets
+        </a>
+
+    </section>
+
+
+    <footer>
+        | Space Explorer | 
+    </footer>
+
+</body>
+
+</html>
